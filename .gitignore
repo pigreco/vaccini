@@ -1,3 +1,6 @@
 # geopackage
 *.gpkg-shm
 *.gpkg-wal
+
+# QGIS
+*.qgs~
