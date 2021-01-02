@@ -1,0 +1,8 @@
+<OGRVRTDataSource>
+<OGRVRTLayer name="latest_fasceEta">
+    <SrcDataSource relativeToVRT="0">/vsicurl/https://raw.githubusercontent.com/ondata/covid19italia/master/webservices/vaccini/processing/latest_fasceEta.csv</SrcDataSource>
+    <Field name="fascia" type="String" />
+    <Field name="vaccinazioni" type="Integer" />
+    <Field name="aggiornamento" type="String" />
+</OGRVRTLayer>
+</OGRVRTDataSource>
