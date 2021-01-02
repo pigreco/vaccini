@@ -1,6 +1,6 @@
 <OGRVRTDataSource>
-<OGRVRTLayer name="latest_somministrazioni">
-    <SrcDataSource relativeToVRT="0">/vsicurl/https://raw.githubusercontent.com/ondata/covid19italia/master/webservices/vaccini/processing/latest_somministrazioni.csv</SrcDataSource>
+<OGRVRTLayer name="somministrazioni">
+    <SrcDataSource relativeToVRT="0">/vsicurl/https://raw.githubusercontent.com/ondata/covid19italia/master/webservices/vaccini/processing/somministrazioni.csv</SrcDataSource>
     <Field name="regione" type="String" />
     <Field name="somministrazioni" type="Integer" />
 	<Field name="percentuale" type="Real" />
