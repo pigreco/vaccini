@@ -20,6 +20,18 @@ in lavorazione
 ### layout stampa
 ![](imgs/img_03.png)
 
+### formato data
+
+```
+format_date(
+	to_datetime(
+		"aggiornamento", 
+			'M/d/yyyy h:mm:ss AP'),
+				'ddd:dd-MM-yyyy HH:mm:ss')
+```
+
+![](imgs/img_04.png)
+
 ### riferimenti utili
 
 - **repository OnData** : <https://github.com/ondata/covid19italia/tree/master/webservices/vaccini>
