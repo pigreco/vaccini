@@ -6,5 +6,6 @@
 	<Field name="percentuale" type="Real" />
     <Field name="dosiConsegnate" type="Integer" />
     <Field name="aggiornamento" type="String" />
+    <Field name="codice_regione" type="String" />
 </OGRVRTLayer>
 </OGRVRTDataSource>
