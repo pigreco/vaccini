@@ -1,0 +1,14 @@
+<OGRVRTDataSource>
+<OGRVRTLayer name="puntiSomministrazioni-19">
+    <SrcDataSource relativeToVRT="0">/vsicurl/https://gist.githubusercontent.com/pigreco/bdc45a6bf9834852c824de98565bdc81/raw/d21e3c783d5f2de41f9c86a75b55ea4402328043/puntiSomministrazioni-19.csv</SrcDataSource>
+    <GeometryType>wkbPoint</GeometryType>
+    <LayerSRS>WGS84</LayerSRS>
+    <Field name="struttura" type="String" />
+    <Field name="indirizzo" type="String" />
+    <Field name="latitude" type="Real" />
+    <Field name="longitude" type="Real" />
+    <Field name="comune" type="String" />
+    <Field name="provincia" type="String" />
+    <GeometryField encoding="PointFromColumns" x="longitude" y="latitude"/>
+</OGRVRTLayer>
+</OGRVRTDataSource>
