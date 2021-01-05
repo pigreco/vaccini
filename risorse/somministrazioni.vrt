@@ -7,5 +7,6 @@
     <Field name="dosiConsegnate" type="Integer" />
     <Field name="aggiornamento" type="String" />
     <Field name="codice_regione" type="String" />
+    <Field name="dataAggiornamento" type="String" />
 </OGRVRTLayer>
 </OGRVRTDataSource>

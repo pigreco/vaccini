@@ -1,0 +1,12 @@
+<OGRVRTDataSource>
+<OGRVRTLayer name="datiRegioni">
+    <SrcDataSource relativeToVRT="0">/vsicurl/https://raw.githubusercontent.com/ondata/covid19italia/master/webservices/vaccini/processing/datiRegioni.csv</SrcDataSource>
+    <Field name="somministrazioni" type="Integer" />
+    <Field name="regione" type="String" />
+	<Field name="siglaCategoria" type="String" />
+    <Field name="identificativo" type="String" />
+    <Field name="categoria" type="String" />
+    <Field name="codice_regione" type="Integer" />
+    <Field name="data" type="String" />
+</OGRVRTLayer>
+</OGRVRTDataSource>
